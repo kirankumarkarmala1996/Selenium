@@ -22,7 +22,6 @@ public class Testing {
 		//to find out the duplicates in two arrays
 		for (int i=0;i<arr.length;i++) {
 			for(int j=0;j<arr1.length;j++) {
-				
 				if(arr[i]==arr1[j])
 					System.out.println(arr1[j]);
 				
