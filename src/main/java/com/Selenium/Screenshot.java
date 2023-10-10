@@ -32,7 +32,7 @@ public class Screenshot {
 				.release().build().perform();
 
 		// Convert web driver object to TakeScreenshot (is interface)
-		TakesScreenshot scrShot = ((TakesScreenshot) driver);// top casting the driver class into take screenshot
+		TakesScreenshot scrShot = ((TakesScreenshot) driver);// up casting the driver class into take screenshot
 																// interface
 //		TakeScreenshot file store in a File class
 		File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
